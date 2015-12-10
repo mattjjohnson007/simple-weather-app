@@ -3,14 +3,15 @@ article, aside, figure, figcaption, footer, header, nav, section {
 }
 
 body {
-    background-color: floralwhite;
+    background-color: black;
+    color: orange;
     font-family: Arial, sans-serif;
     font-size: 1.3em;
 }
 
 header {
-    color: rebeccapurple;
-    font-family: Papyrus, fantasy;
+    color: deepskyblue;
+    font-family: helvetica;
     font-size: 2em;
     text-align: center;
     padding: 20px;
@@ -19,6 +20,7 @@ header {
 #form {
     width: 50%;
     margin: auto;
+    
 }
 
 label {
@@ -33,3 +35,7 @@ input {
     width: 80%;
     margin: auto;
 }   
+
+.hide {
+    display: none;
+}
